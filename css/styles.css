@@ -6,7 +6,7 @@ ul {
 }
 
 /* Logo */
-span { 
+.logo-name { 
 color: black;
 }
 .logo {
@@ -21,7 +21,7 @@ color: black;
 }
 
 /* Navigation */
-.nav-list-item {
+.nav {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -31,8 +31,8 @@ color: black;
     color: #212121;
 }
 
-.nav-list-item:hover,
-.nav-list-item:focus,
+.nav:hover,
+.nav:focus,
 .contact:hover,
 .contact:focus
 {
@@ -54,6 +54,9 @@ color: black;
 .hero {
     background-color: #2F303A;
        align-items: center;
+       text-align: center;
+       max-width: 1600px;
+
 }
 
 .header {
@@ -74,12 +77,13 @@ color: black;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
+
 }
 .button:hover,
 .button:focus {
@@ -97,4 +101,116 @@ color: black;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+}
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Title */
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* Team */
+.team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.jobs {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;   
+}
+
+/* Підвал */
+.Footer-logo {
+    color: #FFFFFF
+}
+.Footer {
+    background-color: #2F303A;
+}
+
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF
+}
+
+.footer-address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* Портфоліо */
+
+.filter {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.filter:focus,
+.filter:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.project {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.type-project {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
